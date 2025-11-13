@@ -2,7 +2,8 @@
 FluctSDK Android bannerの非公開機能のサンプル実装
 
 ## Requirements
-- Android Studio
+- Android Studio Otter 2025.2.1
+- JDK 17
 - Android 4.1 Jelly Bean (API 16) 以降
 
 ## Documentation
