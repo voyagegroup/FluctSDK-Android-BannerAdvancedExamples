@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val TAG = "MainActivity"
+        private const val GROUP_ID = "1000191231"
+        private const val UNIT_ID = "1000303504"
     }
 
     private lateinit var binding: MainActivityBinding
@@ -42,8 +44,8 @@ class MainActivity : AppCompatActivity() {
 
             val adView = FluctAdView(
                 this,
-                "1000149546",
-                "1000245600",
+                GROUP_ID,
+                UNIT_ID,
                 (adWidth/density).roundToInt(),
                 (adHeight/density).roundToInt(),
                 null,
